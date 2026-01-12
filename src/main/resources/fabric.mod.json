@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "speedbuilders_helper",
+  "version": "${version}",
+  "name": "SpeedBuilders Helper",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/speedbuilders_helper/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.seyit.Main"
+    ]
+  },
+  "mixins": [
+    "speedbuilders_helper.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
